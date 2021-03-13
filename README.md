@@ -1,4 +1,4 @@
-![ExophotLogo](figures/ExoPhotlogo.png)
+<img src="figures/ExoPhotlogo.png" width="300"/>
 
 # Photosynthetic systems in exoplanets - ExoPhot
 
