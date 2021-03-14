@@ -2,7 +2,7 @@
 
 # Photosynthetic systems in exoplanets - ExoPhot
 
-Academia MdM CAB Challenges: *Exoplanets*
+Academia MdM CAB Challenge 4: *Remote search and characterization of exoplantes, including atmospheric studies*
 
 *Objective:*
 
@@ -11,12 +11,12 @@ spectral types from an astrobiological and multidisciplinar point of view.
 
 *Research Team:*
 
-* J.A. Caballero (Co-PI)
-* F. Gómez  (Co-PI)
-* M.-A. López-Cayuela (Co-PM)
-* P. Marcos-Arenal (Co-PM)
-* M. Burillo
-* L. Cerdán
-* N. Fonseca-Bonilla
-* J. García de la Concepción 
-* A. López
+* José Antonio Caballero (Co-PI)
+* Felipe Gómez  (Co-PI)
+* María-Ángeles López-Cayuela (Co-PM)
+* Pablo Marcos-Arenal (Co-PM)
+* Mercedes Burillo Villalobos
+* Luis Cerdán
+* Nuria Fonseca-Bonilla
+* Juan García de la Concepción 
+* Alicia López
