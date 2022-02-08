@@ -1,0 +1,15 @@
+##### HOST STAR/EXOPLANET PARAMETERS #####
+# ST: Spectral type 
+# Teff: Effective Temperature (in K) 
+# Rs: Stellar Radius (in solar radii) 
+# Ls: Stellar Luminosity (in solar luminosities) 
+# hzi: Inner boundary of habitable zone (in AU) 
+# hzm: Mid point of habitable zone (in AU) 
+# hz0: Outer boundary of habitable zone (in AU) 
+# S_hzi: Stellar Irradiance at hzi (in W m-2)# S_hzm: Stellar Irradiance at hzm (in W m-2)# S_hzo: Stellar Irradiance at hzo (in W m-2)# ================================== 
+ST,Teff,Rs,Ls,hzi,hzm,hzo,S_hzi,S_hzm,S_hzo
+a5v,8.250000e+03,1.700000e+00,1.208385e+01,2.503394e+00,3.464906e+00,3.911554e+00,2.624570e+03,1.370042e+03,1.075024e+03
+f5v,6.500000e+03,1.300000e+00,2.722901e+00,1.188345e+00,1.644768e+00,1.856789e+00,2.624570e+03,1.370042e+03,1.075024e+03
+g2v,5.750000e+03,1.000000e+00,9.866501e-01,7.153328e-01,9.900800e-01,1.117707e+00,2.624570e+03,1.370042e+03,1.075024e+03
+k5v,4.250000e+03,7.200000e-01,1.526555e-01,2.813732e-01,3.894439e-01,4.396457e-01,2.624570e+03,1.370042e+03,1.075024e+03
+m8v,2.500000e+03,1.210000e-01,5.162054e-04,1.636205e-02,2.264644e-02,2.556571e-02,2.624570e+03,1.370042e+03,1.075024e+03
