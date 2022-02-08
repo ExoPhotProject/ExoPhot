@@ -1,3 +1,7 @@
+#!/usr/bin/env python
+# coding: utf-8
+
+
 import numpy as np
 from scipy.interpolate import CubicSpline
 import scipy.constants as const
@@ -46,6 +50,8 @@ def get_exo_params(atmos, df_exo):
     Returns:
     -------
     Stype:      String with stellar Spectral Type
+    hz:         habitable zone region (i: inner; m: middle; o: outer) 
+    atm_type:   planetary atmosphere type (os1: Earth-like; os2: highly oxidizing, os3; weakly oxidizing; os4: reducing)   
     Rs:         Solar radius (in km)
     sma:        Exoplanet orbital semi-major axis (in km)
     S:          Total Stellar Irradiance (in W m-2)
@@ -62,13 +68,20 @@ def get_exo_params(atmos, df_exo):
     i_last = atmos.index('_os')
     hz = atmos[i_first:i_last]
     
+    # find indices corresponding to planetary atmosphere type
+    i_first = i_last + 1
+    i_last = atmos.index('.txt')
+    atm_type = atmos[i_first:i_last]
+   
+    
+    
     # get solar radius and exoplanet orbit (in km), and Stellar Irradiance
     Rs = 696340*df_exo.loc[np.where(df_exo.ST==Stype)[0][0], 'Rs']
     sma = 1.495978707e+8*df_exo.loc[np.where(df_exo.ST==Stype)[0][0], hz]
     
     S = df_exo.loc[np.where(df_exo.ST==Stype)[0][0], 'S_' + hz]
     
-    return Stype, Rs, sma, S
+    return Stype, hz, atm_type, Rs, sma, S
 
 def save_results(star, atmos, pigm, Rs, sma, S, spectra, rates):
     """Helper function to save results in an adequate format with
@@ -175,8 +188,9 @@ def unit_converter(flux, trans, epsilon, Rs, sma):
     trans_u = trans.copy()
     sigma = epsilon.copy()
         
-    # from mum/nm to Angstrom
+    # from mum to Angstrom
     trans_u[:,0] = 1e4*trans[:,0]
+    # from nm to Angstrom
     sigma[:,0] = 10*epsilon[:,0]
     
     # flux conversion to J/cm2/s/A and multiplication by solid angle subtended by star from exoplanet, (Rs/sma)^2

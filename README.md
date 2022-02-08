@@ -13,8 +13,8 @@ spectral types from an astrobiological and multidisciplinar point of view.
 
 * José Antonio Caballero (Co-PI)
 * Felipe Gómez  (Co-PI)
-* María-Ángeles López-Cayuela (Co-PM)
-* Pablo Marcos-Arenal (Co-PM)
+* María-Ángeles López-Cayuela
+* Pablo Marcos-Arenal (PM)
 * Mercedes Burillo Villalobos
 * Luis Cerdán
 * Nuria Fonseca-Bonilla
