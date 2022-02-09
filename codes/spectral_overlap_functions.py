@@ -96,7 +96,7 @@ def save_results(star, atmos, pigm, Rs, sma, S, spectra, rates):
     Rs:                 stellar radius (in km or whatever units)
     sma:                Exoplanet orbital semi-major axis (same units as Rs)
     S:                  Total Stellar Irradiance (in W m-2)
-    spectra             2D array with wavelength values and flux, atmospher, absorption,
+    spectra:            2D array with wavelength values and flux, atmospher, absorption,
                         and spectral absorption rate spectra
     rates:              1D array with :
                             total absorption rate [s-1] (gamma_t)
@@ -134,7 +134,7 @@ def save_results(star, atmos, pigm, Rs, sma, S, spectra, rates):
              ]
 
     # create output folder if doesn't exist
-    output_folder = Path().absolute() / 'output'
+    output_folder = Path().absolute() / '../output/SOF'
     output_folder.mkdir(parents=True, exist_ok=True)
     
     # set file name and path
