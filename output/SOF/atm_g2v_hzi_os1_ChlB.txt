@@ -1,5 +1,5 @@
 ##### EXOPHOT SPECTRAL OVERLAP FILE #####
-# Date: 09/02/2022 12:39:52
+# Date: 15/02/2022 10:07:51
 # SED file: SED_g2v.txt
 # atmosphere file: atm_g2v_hzi_os1.txt
 # photopigment file: ChlB.txt
@@ -15,7 +15,7 @@
 # Col 1: Wavelength (wl in Angstrom) 
 # Col 2: Spectral Flux Density (F_l in J cm-2 s-1 A-1) 
 # Col 3: Atmosphere transmitance (T, no units) 
-# Col 4: Pigment absorption cross section (sigma_abs in cm-2) 
+# Col 4: Pigment absorption cross section (sigma_abs in cm2) 
 # Col 5: Spectral Absorption Rate (Gamma_lambda in A-1 s-1)
 3000.00 9.87223e-06 2.58713e-02 1.38924e-16 5.35866e-05 
 3010.00 1.15609e-05 4.35929e-02 1.10076e-16 8.40599e-05 

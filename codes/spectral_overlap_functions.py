@@ -129,7 +129,7 @@ def save_results(star, atmos, pigm, Rs, sma, S, spectra, rates):
               '# Col 1: Wavelength (wl in Angstrom) ' + '\n',
               '# Col 2: Spectral Flux Density (F_l in J cm-2 s-1 A-1) ' + '\n',
               '# Col 3: Atmosphere transmitance (T, no units) ' + '\n',
-              '# Col 4: Pigment absorption cross section (sigma_abs in cm-2) ' + '\n',
+              '# Col 4: Pigment absorption cross section (sigma_abs in cm2) ' + '\n',
               '# Col 5: Spectral Absorption Rate (Gamma_lambda in A-1 s-1)' + '\n'
              ]
 
@@ -180,7 +180,7 @@ def unit_converter(flux, trans, epsilon, Rs, sma):
     trans_u:  2D array with atmosphere transmitance spectrum 
                   [Angstrom; None (0-1)]
     sigma:    2D array with pigment absorption cross section spectrum
-                  [Angstrom; cm-2]
+                  [Angstrom; cm2]
                   
     """
     
@@ -215,7 +215,7 @@ def wavelength_interpolate(flux, trans, sigma):
     trans:    2D array with atmosphere transmitance spectrum 
                   [Angstrom; None (0-1)]
     sigma:    2D array with pigment absorption cross section spectrum
-                  [Angstrom; cm-2]
+                  [Angstrom; cm2]
     
     Returns:
     -------
@@ -224,7 +224,7 @@ def wavelength_interpolate(flux, trans, sigma):
     trans_int:  2D array with atmosphere transmitance spectrum (Interpolated)
                   [Angstrom; None (0-1)]
     sigma_int:    2D array with pigment absorption cross section spectrum (Interpolated)
-                  [Angstrom; cm-2]
+                  [Angstrom; cm2]
                   
     """
     
@@ -340,7 +340,7 @@ def spectral_overlap(flux, trans, epsilon, Rs, sma):
                                 Wavelength values (Interpolated) [Angstrom]
                                 Stellar spectral flux density spectrum (Interpolated) [J cm-2 s-1 A-1]
                                 Atmosphere transmitance spectrum (Interpolated) [None (0-1)]
-                                Pigment absorption cross section spectrum (Interpolated) [cm-2]
+                                Pigment absorption cross section spectrum (Interpolated) [cm2]
                                 Spectral absorption rate spectrum [s-1 A-1]
     gamma_t:             total absorption rate [s-1]
     gamma_B:             absorption rate at B band [s-1]
