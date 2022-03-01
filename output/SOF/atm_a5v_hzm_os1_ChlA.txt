@@ -1,5 +1,5 @@
 ##### EXOPHOT SPECTRAL OVERLAP FILE #####
-# Date: 15/02/2022 13:05:13
+# Date: 23/02/2022 14:35:18
 # SED file: SED_a5v.txt
 # atmosphere file: atm_a5v_hzm_os1.txt
 # photopigment file: ChlA.txt
