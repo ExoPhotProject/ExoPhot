@@ -9,10 +9,9 @@ spectral types from an astrobiological and multidisciplinar point of view.
 
 ---
 
-## *Research Team:*
+## Research Team:
 
-| Principal Investigators | Felipe Gómez
-José Antonio Caballero |
+| Principal Investigators | Felipe Gómez and José Antonio Caballero |
 | --- | --- |
 | WG0. Project Manager | Pablo Marcos-Arenal |
 | WG1. Photo-Systems Coordinator | Juan García de la Concepción |
