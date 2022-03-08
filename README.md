@@ -1,3 +1,7 @@
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ExoPhotProject/ExoPhot/Release)
+.. image:: https://mybinder.org/badge_logo.svg
+ :target: https://mybinder.org/v2/gh/ExoPhotProject/ExoPhot/Release
+
 <img src="images/ExoPhotlogo.png" width="300"/>
 
 # Photosynthetic systems in exoplanets - ExoPhot
