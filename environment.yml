@@ -16,4 +16,3 @@ dependencies:
   - ipywidgets
   - jupyterlab
   - bqplot
-prefix: C:\Users\pablo\.conda\envs\ExoPhot
