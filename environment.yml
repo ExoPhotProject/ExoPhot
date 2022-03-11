@@ -1,0 +1,18 @@
+name: ExoPhot
+channels:
+  - soumith
+  - defaults
+dependencies:
+  - python=3.8
+  - notebook
+  - matplotlib-base
+  - matplotlib
+  - pandas
+  - scipy
+  - powershell_shortcut
+  - spyder
+  - seaborn
+  - voila
+  - ipywidgets
+  - jupyterlab
+  - bqplot
