@@ -259,6 +259,11 @@ def wavelength_interpolate(flux, trans, sigma):
     t_int = cs_t(wl_int)
     s_int = cs_s(wl_int)
     
+    # zero in negative values (they may appear after interpolation)
+    f_int[f_int<0] = 0
+    t_int[t_int<0] = 0
+    s_int[s_int<0] = 0
+    
     # concatenate interpolated wavelengths and spectra
     flux_int = np.column_stack((wl_int,f_int))
     trans_int = np.column_stack((wl_int,t_int))
