@@ -91,8 +91,8 @@ containing resulting absortion rates ($\gamma$), photosynthetic photon flux dens
 If your research benefits from the use of this work, we would appreciate if you could include the following reference/s in your publication:
 
 ```markdown
-P. Marcos-Arenal, et al., ExoPhot: The photon absorption rate as a new metric for quantifying the exoplanetary photosynthetic activity fitness, *Universe* 8(12), 624 (2022)
-J. García de la Concepción, et al., Phot0, a plausible primeval pigment on earth and rocky exoplanets, *Phys. Chem. Chem. Phys.*, 24, 16979-16987 (2022)
+P. Marcos-Arenal, et al., ExoPhot: The photon absorption rate as a new metric for quantifying the exoplanetary photosynthetic activity fitness, \*Universe\* 8(12), 624 (2022)
+J. García de la Concepción, et al., Phot0, a plausible primeval pigment on earth and rocky exoplanets, \*Phys. Chem. Chem. Phys.\*, 24, 16979-16987 (2022)
 ```
 
 ---
