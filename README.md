@@ -38,7 +38,7 @@ The following image shows a diagram of the inputs, outputs and notebooks involve
 
 ![DataProcissingDiagram.png](images/DataProcissingDiagram.png)
 
-The Spectral Overlap Files (SOF) calculation notebook (*/notebooks/SOF_calculation*) generates the resulting spectral and total absorption rates (SAR & TAR) in for each of the considered input pigment/stars/planetary atmosphere. The spectral absorption rate (SAR) is saved to spectral overlap files (SOF), while the total absorption rate (TAR, $\gamma_{t}$) is stored in a PANDAS *tar_table_df* dataframe.
+The Spectral Overlap Files (SOF) calculation notebook (*/notebooks/SOF_calculation*) generates the resulting spectral and total absorption rates (SAR & TAR) for each of the considered input pigment/stars/planetary atmosphere. The spectral absorption rate (SAR) is saved to spectral overlap files (SOF), while the total absorption rate (TAR, $\gamma_{t}$) is stored in a PANDAS *tar_table_df* dataframe.
 
 The *SOF_calculation*  notebooks uses the *spectral_overlap_functions* library (imported as *sof*) located on `exophot/codes/spectral_overlap_functions.py`
 
