@@ -58,7 +58,8 @@ These calculations are already performed, so the SOF files are included in the *
 
 ## Outputs
 
-- Spectral Overlap Files (SOF) under `exophot/output/SOF` containing:
+- Spectral Overlap Files (SOF) under `exophot/output/SOF` are published at [this Zenodo](https://zenodo.org/records/14988863).
+  Each of these files include:
     - Date
     - SED file
     - atmosphere file
@@ -71,6 +72,8 @@ These calculations are already performed, so the SOF files are included in the *
     - B-Q bands cut-off (in nm)
     - photosynthetic photon flux density (ppfd in micromol photon m-2 s-1)
     - Total Stellar Irradiance (S in W m-2):
+      
+  Spectral Data Columns:
     * Col 1: Wavelength (wl in Angstrom)
     * Col 2: Spectral Flux Density (F_l in J cm-2 s-1 A-1)
     * Col 3: Atmosphere transmitance (T, no units)
@@ -83,6 +86,9 @@ containing resulting absortion rates ($\gamma$), photosynthetic photon flux dens
     - $\gamma_Q$: absorption rate at Q band [s-1]
     - ppfd: photosynthetic photon flux density [micromol photon m-2 s-1]
     - S: Total Stellar Irradiance (in W m-2)
+    - 
+These Spectral Overlap Files (SOF) provide data on the spectral absorption rate (Γλ), which quantifies the number of photons absorbed per unit time and wavelength by a given photopigment in an exoplanetary environment. The calculation is based on the overlap between the stellar spectral flux density at the top of the exoplanet atmosphere (Fλ), the atmosphere transmittance (T), and the photopigment absorption cross-section (σ_abs).
+
 
 ---
 
