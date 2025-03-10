@@ -86,7 +86,7 @@ containing resulting absortion rates ($\gamma$), photosynthetic photon flux dens
     - $\gamma_Q$: absorption rate at Q band [s-1]
     - ppfd: photosynthetic photon flux density [micromol photon m-2 s-1]
     - S: Total Stellar Irradiance (in W m-2)
-    - 
+      
 These Spectral Overlap Files (SOF) provide data on the spectral absorption rate (Γλ), which quantifies the number of photons absorbed per unit time and wavelength by a given photopigment in an exoplanetary environment. The calculation is based on the overlap between the stellar spectral flux density at the top of the exoplanet atmosphere (Fλ), the atmosphere transmittance (T), and the photopigment absorption cross-section (σ_abs).
 
 
